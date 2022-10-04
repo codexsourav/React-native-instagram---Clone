@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "941623218077",
+    "project_id": "codexsourav-404",
+    "storage_bucket": "codexsourav-404.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941623218077:android:70e5674a85ae749d6a6974",
+        "android_client_info": {
+          "package_name": "com.instagram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941623218077-e8e3tdr86l5l5n8o55dlqqpr2k07p05a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkQy3IO42dY-hJSYbBWwNz8uPe6jyqE10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941623218077-e8e3tdr86l5l5n8o55dlqqpr2k07p05a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
