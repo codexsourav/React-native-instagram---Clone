@@ -9,6 +9,7 @@ import Login from './screens/auth/Login';
 import Signup from './screens/auth/signup/Signup';
 import Verify from './screens/auth/verify';
 import Splash from './Splash';
+import Activity from './activity/Activity';
 
 const Stack = createNativeStackNavigator();
 
@@ -38,9 +39,15 @@ const App = () => {
           component={Signup}
           options={{headerShown: false}}
         />
+
         <Stack.Screen
           name="Verify"
           component={Verify}
+          options={{headerShown: false}}
+        />
+        <Stack.Screen
+          name="Activity"
+          component={Activity}
           options={{headerShown: false}}
         />
       </Stack.Navigator>

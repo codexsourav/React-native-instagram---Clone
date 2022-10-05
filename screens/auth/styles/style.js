@@ -87,5 +87,34 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#fff',
   },
+  model: {
+    width: windowWidth,
+    height: windowHeight,
+    backgroundColor: 'rgba(0, 0, 0, 0.7)',
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 50,
+  },
+  alert: {
+    width: 300,
+    height: 150,
+    backgroundColor: '#fff',
+    borderRadius: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  alertmsg: {
+    color: '#000',
+    fontWeight: '500',
+    opacity: 0.9,
+  },
+  alertbtn: {
+    backgroundColor: 'rgba(61, 61, 254, 1)',
+    paddingHorizontal: 29,
+    paddingVertical: 10,
+    borderRadius: 50,
+    marginTop: 25,
+  },
 });
 export default styles;

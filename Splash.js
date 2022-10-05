@@ -12,7 +12,7 @@ const Splash = ({navigation}) => {
       } else if (auth().currentUser.emailVerified == false) {
         navigation.replace('Verify');
       } else if (auth().currentUser.emailVerified == true) {
-        navigation.replace('Home');
+        navigation.replace('Activity');
       } else {
         navigation.replace('Login');
       }
